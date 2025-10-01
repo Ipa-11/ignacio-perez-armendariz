@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Franco Armani</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Franco Armani: El Guardián del Arco de River</h1>
+  <p>Franco Armani es uno de los arqueros más destacados del fútbol argentino. Desde su llegada a River Plate en 2018, se ha ganado el cariño de los hinchas gracias a sus increíbles atajadas y liderazgo dentro del campo.</p>
+  
+  <p>Nacido en Casilda, Santa Fe, Armani tuvo una carrera ascendente pasando por Ferro, Deportivo Merlo, Atlético Nacional y finalmente River Plate, donde logró consolidarse como figura.</p>
+
+  <p>En este blog, repasaremos algunos de sus logros más importantes en River Plate.</p>
+
+  <a href="blog2.html"><button>Ver logros de Armani en River</button></a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Logros de Franco Armani</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Logros de Franco Armani en River Plate</h1>
+  <p>Desde su llegada en 2018, Franco Armani ha sido protagonista en numerosos títulos con River:</p>
+
+  <ul>
+    <li>🏆 Copa Libertadores 2018 (vs Boca Juniors en Madrid)</li>
+    <li>🏆 Recopa Sudamericana 2019</li>
+    <li>🏆 Copa Argentina (2019)</li>
+    <li>🏆 Liga Profesional (2021, 2023)</li>
+    <li>🏆 Supercopa Argentina</li>
+  </ul>
+
+  <p>Además, fue convocado a la Selección Argentina y formó parte del plantel campeón de la Copa América 2021 y del Mundial Qatar 2022.</p>
+
+  <a href="index.html">← Volver al blog principal</a>
+</body>
+</html>
