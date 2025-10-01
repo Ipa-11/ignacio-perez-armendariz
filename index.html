@@ -1,203 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>River Plate - La Historia del Más Grande</title>
-    <style>
-        /* Reset básico */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #fff;
-            color: #a80000;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #a80000;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(168, 0, 0, 0.5);
-        }
-
-        header h1 {
-            font-size: 3rem;
-            letter-spacing: 5px;
-            margin-bottom: 5px;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            font-style: italic;
-        }
-
-        nav {
-            background-color: #6d0000;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 25px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ff0000;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        section {
-            margin-bottom: 50px;
-        }
-
-        section h2 {
-            border-bottom: 3px solid #a80000;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-            font-size: 2rem;
-        }
-
-        /* Imagen destacada */
-        .img-libertadores {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 6px 12px rgba(168,0,0,0.5);
-            margin-bottom: 20px;
-        }
-
-        /* Historia texto */
-        .historia p {
-            font-size: 1.15rem;
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-
-        /* Datos Libertadores */
-        .libertadores-list {
-            list-style-type: none;
-            padding-left: 0;
-            font-size: 1.1rem;
-        }
-
-        .libertadores-list li {
-            margin-bottom: 10px;
-            padding-left: 25px;
-            position: relative;
-        }
-
-        .libertadores-list li::before {
-            content: "✔️";
-            position: absolute;
-            left: 0;
-            color: #a80000;
-        }
-
-        footer {
-            background-color: #a80000;
-            color: white;
-            text-align: center;
-            padding: 15px 10px;
-            margin-top: 60px;
-            font-size: 0.9rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
-
-            nav {
-                flex-direction: column;
-            }
-
-            nav a {
-                margin: 10px 0;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Blog de Franco Armani</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Franco Armani: El Guardián del Arco de River</h1>
+  <p>Franco Armani es uno de los arqueros más destacados del fútbol argentino. Desde su llegada a River Plate en 2018, se ha ganado el cariño de los hinchas gracias a sus increíbles atajadas y liderazgo dentro del campo.</p>
+  
+  <p>Nacido en Casilda, Santa Fe, Armani tuvo una carrera ascendente pasando por Ferro, Deportivo Merlo, Atlético Nacional y finalmente River Plate, donde logró consolidarse como figura.</p>
 
-    <header>
-        <h1>RIVER PLATE</h1>
-        <p>El Más Grande de América</p>
-    </header>
+  <p>En este blog, repasaremos algunos de sus logros más importantes en River Plate.</p>
 
-    <nav>
-        <a href="#historia">Historia</a>
-        <a href="#libertadores2018">Libertadores 2018</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
-    <main>
-        <section id="historia" class="historia">
-            <h2>Historia de River Plate</h2>
-            <p>
-                Fundado en 1901, River Plate es uno de los clubes más grandes y exitosos del fútbol argentino y sudamericano.
-                Su rica historia está llena de títulos, leyendas y momentos inolvidables que marcaron la pasión de millones de hinchas.
-            </p>
-            <p>
-                Con más de 60 títulos oficiales en su palmarés, incluyendo numerosas ligas locales, copas nacionales e internacionales,
-                River es sinónimo de grandeza, tradición y fútbol de alta calidad.
-            </p>
-            <p>
-                Desde figuras icónicas como Ángel Labruna, Enzo Francescoli, Ariel Ortega, hasta el presente con jugadores destacados,
-                River siempre ha sido sinónimo de garra, talento y entrega.
-            </p>
-        </section>
-
-        <section id="libertadores2018">
-            <h2>La Libertadores 2018 - El título más épico</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Copa_Libertadores_2018_%28River_Plate%29.jpg" alt="River Plate campeón Libertadores 2018" class="img-libertadores" />
-            <p>
-                En 2018, River Plate conquistó la Copa Libertadores de América de una forma histórica y épica, venciendo a su eterno rival Boca Juniors en la final más recordada del fútbol sudamericano.
-            </p>
-            <ul class="libertadores-list">
-                <li>Final jugada en dos partidos debido a la postergación en el estadio original por problemas de seguridad.</li>
-                <li>Partido definitorio en el mítico estadio Santiago Bernabéu, en Madrid, España.</li>
-                <li>Victoria por 3-1 en la final, demostrando carácter y fútbol ofensivo.</li>
-                <li>Marcado por goles de Lucas Pratto, Juan Fernando Quintero y Gonzalo Martínez.</li>
-                <li>Una hazaña que quedará para siempre en la memoria de los hinchas millonarios.</li>
-            </ul>
-        </section>
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Querés saber más o compartir tu pasión por River? Seguinos en nuestras redes oficiales:</p>
-            <ul>
-                <li><a href="https://twitter.com/RiverPlate" target="_blank" rel="noopener noreferrer">Twitter Oficial</a></li>
-                <li><a href="https://www.facebook.com/riverplate" target="_blank" rel="noopener noreferrer">Facebook Oficial</a></li>
-                <li><a href="https://www.instagram.com/cariverplate/" target="_blank" rel="noopener noreferrer">Instagram Oficial</a></li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        &copy; 2025 River Plate - Orgullo y pasión millonaria
-    </footer>
-
+  <a href="blog2.html"><button>Ver logros de Armani en River</button></a>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Logros de Franco Armani</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Logros de Franco Armani en River Plate</h1>
+  <p>Desde su llegada en 2018, Franco Armani ha sido protagonista en numerosos títulos con River:</p>
+
+  <ul>
+    <li>🏆 Copa Libertadores 2018 (vs Boca Juniors en Madrid)</li>
+    <li>🏆 Recopa Sudamericana 2019</li>
+    <li>🏆 Copa Argentina (2019)</li>
+    <li>🏆 Liga Profesional (2021, 2023)</li>
+    <li>🏆 Supercopa Argentina</li>
+  </ul>
+
+  <p>Además, fue convocado a la Selección Argentina y formó parte del plantel campeón de la Copa América 2021 y del Mundial Qatar 2022.</p>
+
+  <a href="index.html">← Volver al blog principal</a>
+</body>
+</html>
+
 
 
